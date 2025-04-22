@@ -62,7 +62,7 @@ section {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  background-color: #E6FFE9;
+  background-color: #FFE4C4;
   border-radius: 30px;
   padding: 30px;
 }
@@ -105,7 +105,7 @@ section {
    自己紹介セクション
 ========================== */
 #intro .container {
-  background-color: #E6FFE9;
+  background-color: #FFE4C4;
   padding: 30px;
   border-radius: 30px;
 }
@@ -144,7 +144,7 @@ section {
 .sns-links {
   text-align: center;
   padding: 30px;
-  background-color: #E6FFE9;
+  background-color: #FFE4C4;
   border-radius: 10px;
 }
 
@@ -247,13 +247,13 @@ section ol li p {
   height: 100%;
   border: none;
   border-radius: 10px;
-      background-color: #E6FFE9;
+      background-color: #FFE4C4;
 }
 
 .Recommended-YouTube {
   text-align: center;
   padding: 30px;
-  background-color: #E6FFE9;
+  background-color: #FFE4C4;
   border-radius: 10px;
 }
 
@@ -289,13 +289,13 @@ section ol li p {
   height: 100%;
   border: none;
   border-radius: 10px;
-      background-color: #E6FFE9;
+      background-color: #FFE4C4;
 }
 
 .Recommended-INS {
   text-align: center;
   padding: 30px;
-  background-color: #E6FFE9;
+  background-color: #FFE4C4;
   border-radius: 10px;
 }
 
@@ -308,7 +308,7 @@ section ol li p {
 .map-section {
   text-align: center;
   padding: 30px;
-  background-color: #E6FFE9;
+  background-color: #FFE4C4;
   border-radius: 10px;
 }
 
@@ -321,7 +321,7 @@ section ol li p {
    LINEスタンプセクション
 ========================== */
 .line-stamp {
-  background-color: #E6FFE9;
+  background-color: #FFE4C4;
   border-radius: 10px;
   padding: 30px;
   text-align: center;
@@ -373,7 +373,7 @@ section ol li p {
    書籍紹介
 ========================== */
 .books {
-  background-color: #E6FFE9;
+  background-color: #FFE4C4;
   border-radius: 10px;
   padding: 30px;
   text-align: center;
@@ -410,8 +410,8 @@ section ol li p {
 .book-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #2E8B57;
-  color: white;
+  background-color: #FFC0CB;
+  color: black;
   text-decoration: none;
  font-size: clamp(2rem, 2vw, 2.5rem);
   border-radius: 30px;
@@ -440,7 +440,7 @@ section ol li p {
    フッター
 ========================== */
 footer {
-  background-color: #99CC99;
+  background-color: #FFA07A;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -452,7 +452,7 @@ footer {
 }
 
 h5 {
-  border-bottom: solid 3px #66CDAA;
+  border-bottom: solid 3px #FFA07A;
   position: relative;
           font-family: "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
           font-size: 4rem;
@@ -477,7 +477,7 @@ h5:after {
   position: absolute;
   content: " ";
   display: block;
-  border-bottom: solid 3px #005500;
+  border-bottom: solid 3px #FF4500;
   bottom: -3px;
   width: 20%;
 }
@@ -515,18 +515,18 @@ h5:after {
 }
 
 .slideimg:nth-of-type(2) {
-  background-image: url('image0 (2).jpeg');
+  background-image: url('image1 (1).jpeg');
   animation-delay: 3s;
 }
 
 .slideimg:nth-of-type(3) {
-  background-image: url('image1 (1).jpeg);
+  background-image: url('image0 (2).jpeg');
   animation-delay: 6s;
 }
 
  
 .slideimg p1 {
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: clamp(2rem, 3vw, 5rem); /* 最小1.2rem, 通常2vw, 最大2.5rem */
   position: absolute;
